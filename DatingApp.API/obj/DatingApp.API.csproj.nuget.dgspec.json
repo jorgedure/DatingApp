@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lopez\\Documents\\GitHub\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {}
+    "C:\\Users\\lopez\\Documents\\GitHub\\DatingApp\\datingapp.api\\DatingApp.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lopez\\Documents\\GitHub\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {
+    "C:\\Users\\lopez\\Documents\\GitHub\\DatingApp\\datingapp.api\\DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lopez\\Documents\\GitHub\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "projectUniqueName": "C:\\Users\\lopez\\Documents\\GitHub\\DatingApp\\datingapp.api\\DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "C:\\Users\\lopez\\Documents\\GitHub\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "projectPath": "C:\\Users\\lopez\\Documents\\GitHub\\DatingApp\\datingapp.api\\DatingApp.API.csproj",
         "packagesPath": "C:\\Users\\lopez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lopez\\Documents\\GitHub\\DatingApp\\DatingApp.API\\obj\\",
+        "outputPath": "C:\\Users\\lopez\\Documents\\GitHub\\DatingApp\\datingapp.api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[3.0.0, )"
@@ -48,6 +52,10 @@
             "Microsoft.AspNetCore.Diagnostics": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
