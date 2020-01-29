@@ -29,3 +29,8 @@
 .animate {
     transition: all 0.3s ease-in-out;
 }
+img.card-img-top {
+   height: 150px;
+   min-width: 100px !important;
+   margin-bottom: 2px;
+}
